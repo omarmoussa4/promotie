@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Omar Moussa//PhD defence//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:promotie-omar-moussa-20261207@omarmoussa4.github.io
+DTSTAMP:20261030T120000Z
+DTSTART:20261207T124500Z
+DTEND:20261207T160000Z
+SUMMARY:Promotie / PhD defence Omar Moussa
+LOCATION:Auditorium\, Vrije Universiteit Amsterdam\, De Boelelaan 1105\, Am
+ sterdam
+DESCRIPTION:Openbare verdediging van het proefschrift "Defining\, Standardi
+ zing\, and Scaling Orthoplastic Limb Salvage Surgery Care" (13.45 uur)\, g
+ evolgd door een receptie.\nPublic defence of the doctoral thesis (13:45)\,
+  followed by a reception.\n\nLivestream: https://vu.nl/pedel/livestream
+URL:https://vu.nl/pedel/livestream
+END:VEVENT
+END:VCALENDAR
