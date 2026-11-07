@@ -1,35 +1,56 @@
 <!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><title>Promotie / PhD defence Omar Moussa</title>
+<meta name="theme-color" content="#b19885">
+<link rel="preload" href="a/serif600.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-body{margin:0;background:#c9b39f;font-family:Georgia,"Times New Roman",serif;color:#2f2320}
-main{max-width:30rem;margin:0 auto;padding:2.2rem 1.25rem 3rem;text-align:center}
-.k{font:600 .78rem/1 -apple-system,Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
-h1{font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;line-height:1.35;margin:1rem 0 .4rem}
-.nm{letter-spacing:.12em;text-transform:uppercase;margin:.2rem 0 1.4rem}
-.when{background:#2b2622;color:#e9dfcf;border-radius:10px;padding:1rem;font:1rem/1.55 -apple-system,Helvetica,Arial,sans-serif}
-a.b{display:block;margin:.7rem 0;padding:.95rem 1rem;border-radius:10px;background:#fbf7f0;color:#2f2320;text-decoration:none;
-font:600 1.02rem -apple-system,Helvetica,Arial,sans-serif;border:1px solid #8a7462}
-a.ls{background:#2b2622;color:#e9dfcf;border-color:#2b2622}
-p.s{font:.82rem/1.45 -apple-system,Helvetica,Arial,sans-serif;margin:.4rem 0 1.2rem}
-.cal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.5rem;margin:.9rem 0 .4rem}
-.cal a{display:flex;flex-direction:column;align-items:center;gap:.45rem;padding:.8rem .2rem .65rem;border-radius:12px;background:#fbf7f0;border:1px solid rgba(138,116,98,.55);color:#2f2320;text-decoration:none;box-shadow:0 1px 2px rgba(47,35,32,.08);transition:transform .15s,box-shadow .15s}
-.cal a:hover,.cal a:focus-visible{transform:translateY(-2px);box-shadow:0 4px 10px rgba(47,35,32,.15);outline:none}
-.cal .ic{display:flex;width:28px;height:28px}.cal svg{width:100%;height:100%}
-.cal .lb{white-space:nowrap;font:600 .68rem/1.15 -apple-system,Helvetica,Arial,sans-serif;text-align:center;min-height:1.6em;display:flex;align-items:center}
-a.pdf{background:#7a3b2e;color:#fbf7f0;border-color:#7a3b2e;display:flex;align-items:center;justify-content:center;gap:.55rem}
+@font-face{font-family:BS;font-weight:600;font-display:swap;src:url(a/serif600.woff2) format("woff2")}
+@font-face{font-family:SS;font-weight:400;font-display:swap;src:url(a/sans400.woff2) format("woff2")}
+@font-face{font-family:SS;font-weight:600;font-display:swap;src:url(a/sans600.woff2) format("woff2")}
+@font-face{font-family:SP;font-weight:500;font-display:swap;src:url(a/spectral500.woff2) format("woff2")}
+:root{--ink:#2c1f1c;--ink2:#1c1915;--gold:rgb(210,178,148);--stone:#b19885;--bandc:#3a3129}
+html{min-height:100%;background:var(--stone) url(a/steen.jpg) 50% 0/cover no-repeat}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;color:var(--ink);font-family:SS,-apple-system,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{width:100%;max-width:30rem;box-sizing:border-box;margin:0 auto;padding:2.6rem 1.25rem 2.4rem;text-align:center}
+.k{font:600 .76rem/1.5 SS,-apple-system,Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin:0 0 .7rem}
+.nm{font-family:SP,Georgia,serif;font-weight:500;text-transform:uppercase;letter-spacing:.14em;font-size:clamp(1rem,4.6vw,1.2rem);margin:0 0 2.2rem;color:rgb(47,35,32);white-space:nowrap}
+.nm .pd{text-transform:none;letter-spacing:.06em}.nm .ap{letter-spacing:0;margin-left:-.08em}
+h1{margin:0;font-weight:600}
+h1 .r1,h1 .r2{display:block;font-family:BS,Georgia,serif;text-transform:uppercase;text-wrap:balance}
+h1 .r1{color:rgb(47,35,32);letter-spacing:.06em;font-size:clamp(.82rem,3.7vw,.95rem);line-height:1.35}
+h1 .r2{color:var(--ink2);letter-spacing:.03em;font-size:clamp(.92rem,4.2vw,1.08rem);line-height:1.3;margin-top:.35rem}
+.motto{display:block;width:9.5rem;height:auto;margin:1.1rem auto 0}
+.when{color:var(--gold);font:400 1rem/1.6 SS,-apple-system,Helvetica,Arial,sans-serif;letter-spacing:.05em;background:var(--bandc) url(a/band.jpg) 50% 50%/cover}
+a.b{display:block;margin:.7rem 0;padding:.95rem 1rem;border-radius:10px;text-decoration:none;font:600 1.02rem SS,-apple-system,Helvetica,Arial,sans-serif;letter-spacing:.02em}
+a.ls{background:#24548f;color:#ffffff;border:1px solid #24548f}
+a.pdf{background:#9a6a2a;color:#fbf7f0;border:1px solid #9a6a2a;display:flex;align-items:center;justify-content:center;gap:.55rem}
 a.pdf svg{width:20px;height:20px;flex:none}
-.k{line-height:1.5}
+p.s{font:.8rem/1.45 SS,-apple-system,Helvetica,Arial,sans-serif;margin:.5rem 0 1.4rem;color:var(--ink)}
+.cal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.5rem;margin:.2rem 0 .4rem}
+.cal a{display:flex;flex-direction:column;align-items:center;gap:.45rem;padding:.8rem .2rem .65rem;border-radius:12px;color:var(--ink);text-decoration:none}
+.cal .ic{display:block;width:28px;height:28px}.cal .ic svg{display:block;width:100%;height:100%}
+.cal .lb{white-space:nowrap;font:600 .68rem/1.15 SS,-apple-system,Helvetica,Arial,sans-serif}
+.sec{margin-top:2rem}
+.cover{display:block;margin:0 auto}.cover img{display:block;width:100%;height:auto}
 @media (max-width:400px){.cal{gap:.4rem}.cal .lb{font-size:.62rem}}
 @media (max-width:339px){.cal{grid-template-columns:repeat(3,minmax(0,1fr))}}
-a.ls{background:#24548f;color:#ffffff;border-color:#24548f}
-a.pdf{background:#9a6a2a;color:#fbf7f0;border-color:#9a6a2a}
-</style></head><body><main>
+
+.full{width:100%;padding:1.3rem 1.25rem;box-sizing:border-box;text-align:center}
+.cal a{background:rgba(244,239,227,.72);border:1px solid rgba(160,128,96,.55)}
+.stage{flex:1;display:flex;flex-direction:column}
+.stage .cover{position:relative;z-index:1;width:calc(100% - 2.5rem);max-width:20rem;margin:0 auto -3.4rem}
+.stage .cover img{border-radius:3px;box-shadow:0 18px 30px rgba(10,6,3,.55),0 3px 8px rgba(10,6,3,.4)}
+.stage .tbl{flex:1;min-height:5.4rem;background:var(--bandc) url(a/band.jpg) 50% 0/cover}
+</style></head><body>
+<main style="padding-bottom:1.6rem">
 <p class="k">Uitnodiging &middot; Invitation</p>
-<h1>Defining, Standardizing, and Scaling Orthoplastic Limb Salvage Surgery Care</h1>
-<p class="nm">Omar Moussa&rsquo;s <span style="text-transform:none">PhD</span></p>
-<div class="when">Maandag 7 december 2026<br>Monday 7 December 2026<br>13.45&ndash;17.00 (incl. receptie / reception)<br>Auditorium, Vrije Universiteit Amsterdam<br>De Boelelaan 1105</div>
-<p class="k" style="margin-top:1.8rem">Zet in je agenda &middot; Add to your calendar</p>
+<p class="nm">Omar Moussa<span class="ap">&rsquo;</span>s <span class="pd">PhD</span></p>
+<h1><span class="r1">Defining, Standardizing, and&nbsp;Scaling</span><span class="r2">Orthoplastic Limb Salvage Surgery&nbsp;Care</span></h1>
+<img class="motto" src="a/motto.png" alt="doing More with Less." width="427" height="109">
+</main>
+<div class="when full">Monday 7 December 2026<br>13.45&ndash;17.00 (incl. receptie / reception)<br>Auditorium, Vrije Universiteit Amsterdam<br>De Boelelaan 1105</div>
+<main style="padding-top:.4rem;padding-bottom:2rem">
+<div class="sec"><p class="k">Zet in je agenda &middot; Add to your calendar</p>
 <nav class="cal" aria-label="Zet in je agenda / Add to your calendar">
 <a href="promotie-omar-moussa.ics" aria-label="Apple-agenda (iPhone, iPad, Mac)" title="Apple-agenda (iPhone, iPad, Mac)"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#000000" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg></span><span class="lb">Apple</span></a>
 <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Promotie%20/%20PhD%20defence%20Omar%20Moussa&dates=20261207T124500Z/20261207T160000Z&details=Openbare%20verdediging%20van%20het%20proefschrift%20%22Defining%2C%20Standardizing%2C%20and%20Scaling%20Orthoplastic%20Limb%20Salvage%20Surgery%20Care%22%20%2813.45%20uur%29%2C%20gevolgd%20door%20een%20receptie.%0APublic%20defence%20of%20the%20doctoral%20thesis%20%2813%3A45%29%2C%20followed%20by%20a%20reception.%0A%0ALivestream%3A%20https%3A//vu.nl/pedel/livestream&location=Auditorium%2C%20Vrije%20Universiteit%20Amsterdam%2C%20De%20Boelelaan%201105%2C%20Amsterdam&ctz=Europe/Amsterdam" target="_blank" rel="noopener" aria-label="Google Agenda / Google Calendar" title="Google Agenda / Google Calendar"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M18.316 5.684H24v12.632h-5.684V5.684zM5.684 24h12.632v-5.684H5.684V24zM18.316 5.684V0H1.895A1.894 1.894 0 0 0 0 1.895v16.421h5.684V5.684h12.632zm-7.207 6.25v-.065c.272-.144.5-.349.687-.617s.279-.595.279-.982c0-.379-.099-.72-.3-1.025a2.05 2.05 0 0 0-.832-.714 2.703 2.703 0 0 0-1.197-.257c-.6 0-1.094.156-1.481.467-.386.311-.65.671-.793 1.078l1.085.452c.086-.249.224-.461.413-.633.189-.172.445-.257.767-.257.33 0 .602.088.816.264a.86.86 0 0 1 .322.703c0 .33-.12.589-.36.778-.24.19-.535.284-.886.284h-.567v1.085h.633c.407 0 .748.109 1.02.327.272.218.407.499.407.843 0 .336-.129.614-.387.832s-.565.327-.924.327c-.351 0-.651-.103-.897-.311-.248-.208-.422-.502-.521-.881l-1.096.452c.178.616.505 1.082.977 1.401.472.319.984.478 1.538.477a2.84 2.84 0 0 0 1.293-.291c.382-.193.684-.458.902-.794.218-.336.327-.72.327-1.149 0-.429-.115-.797-.344-1.105a2.067 2.067 0 0 0-.881-.689zm2.093-1.931l.602.913L15 10.045v5.744h1.187V8.446h-.827l-2.158 1.557zM22.105 0h-3.289v5.184H24V1.895A1.894 1.894 0 0 0 22.105 0zm-3.289 23.5l4.684-4.684h-4.684V23.5zM0 22.105C0 23.152.848 24 1.895 24h3.289v-5.184H0v3.289z"/></svg></span><span class="lb">Google</span></a>
@@ -37,8 +58,11 @@ a.pdf{background:#9a6a2a;color:#fbf7f0;border-color:#9a6a2a}
 <a href="https://outlook.office.com/calendar/0/action/compose?rru=addevent&subject=Promotie%20/%20PhD%20defence%20Omar%20Moussa&startdt=2026-12-07T12:45:00Z&enddt=2026-12-07T16:00:00Z&location=Auditorium%2C%20Vrije%20Universiteit%20Amsterdam%2C%20De%20Boelelaan%201105%2C%20Amsterdam&body=Openbare%20verdediging%20van%20het%20proefschrift%20%22Defining%2C%20Standardizing%2C%20and%20Scaling%20Orthoplastic%20Limb%20Salvage%20Surgery%20Care%22%20%2813.45%20uur%29%2C%20gevolgd%20door%20een%20receptie.%0APublic%20defence%20of%20the%20doctoral%20thesis%20%2813%3A45%29%2C%20followed%20by%20a%20reception.%0A%0ALivestream%3A%20https%3A//vu.nl/pedel/livestream" target="_blank" rel="noopener" aria-label="Outlook werk/school (Microsoft 365) / work/school" title="Outlook werk/school (Microsoft 365) / work/school"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#F25022" d="M0 0h11.4v11.4H0z"/><path fill="#7FBA00" d="M12.6 0H24v11.4H12.6z"/><path fill="#00A4EF" d="M0 12.6h11.4V24H0z"/><path fill="#FFB900" d="M12.6 12.6H24V24H12.6z"/></svg></span><span class="lb">Office 365</span></a>
 <a href="promotie-omar-moussa.ics" download aria-label="Andere agenda (.ics) / Other calendar" title="Andere agenda (.ics) / Other calendar"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#2f2320" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4.5" width="18" height="16.5" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><path d="M12 12.5v5M9.5 15h5"/></svg></span><span class="lb">Andere</span></a>
 </nav>
-<p class="s">Op een iPhone: open deze pagina in Safari als een logo niets doet. &middot; On an iPhone: open this page in Safari if a logo does nothing.</p>
-<p class="k" style="margin-top:1.4rem">Livestream</p>
+<p class="s">Op een iPhone: open deze pagina in Safari als een logo niets doet.<br>On an iPhone: open this page in Safari if a logo does nothing.</p></div>
+<p class="k">Livestream</p>
 <a class="b ls" href="https://vu.nl/pedel/livestream" rel="noopener">Kijk live mee &middot; Watch live</a>
 <a class="b pdf" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h5"/></svg><span>Proefschrift &middot; Thesis (pdf)</span></a>
-</main></body></html>
+
+</main>
+<div class="stage"><a class="cover" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><img src="a/omslag.jpg" alt="Omslag van het proefschrift / Thesis cover" width="900" height="1270" loading="lazy"></a><div class="tbl"></div></div>
+</body></html>
