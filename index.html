@@ -41,7 +41,23 @@ p.s{font:.8rem/1.45 SS,-apple-system,Helvetica,Arial,sans-serif;margin:.5rem 0 1
 .stage .cover{position:relative;z-index:1;width:calc(100% - 2.5rem);max-width:20rem;margin:0 auto -3.4rem}
 .stage .cover img{border-radius:3px;box-shadow:0 18px 30px rgba(10,6,3,.55),0 3px 8px rgba(10,6,3,.4)}
 .stage .tbl{flex:1;min-height:5.4rem;background:var(--bandc) url(a/band.jpg) 50% 0/cover}
-</style></head><body>
+.pg{flex:1;display:flex;flex-direction:column}
+@media (min-width:820px){
+html{background:#2f2721}
+.pg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto 1fr;min-height:100vh;flex:1}
+.pg>main:first-of-type{grid-column:2;grid-row:1;background:var(--stone) url(a/steen.jpg) 50% 0/100% auto}
+.pg>.when{grid-column:2;grid-row:2;background-size:100% auto;background-position:50% 50%}
+.pg>main:nth-of-type(2){grid-column:2;grid-row:3;max-width:none;padding-left:max(1.25rem,calc((100% - 30rem)/2));padding-right:max(1.25rem,calc((100% - 30rem)/2))}
+.pg>main{max-width:none;margin:0}
+.pg>main:first-of-type{padding-left:max(1.25rem,calc((100% - 30rem)/2));padding-right:max(1.25rem,calc((100% - 30rem)/2));padding-top:4.2rem}
+.pg{background:linear-gradient(90deg,transparent 50%,var(--stone) 50%)}
+.pg>main:nth-of-type(2){background:var(--stone) url(a/steen.jpg) 50% 100%/100% auto}
+.stage{grid-column:1;grid-row:1/4;position:sticky;top:0;height:100vh;align-self:start;display:flex;flex-direction:row;align-items:center;justify-content:center;background:#2f2721 radial-gradient(ellipse 70% 60% at 50% 45%,#4a3e33 0%,#2f2721 70%)}
+.stage .cover{margin:0;width:min(25rem,62%);max-width:none}
+.stage .cover img{box-shadow:0 30px 60px rgba(0,0,0,.6),0 6px 16px rgba(0,0,0,.45)}
+.stage .tbl{display:none}
+.motto{width:10.5rem}
+}</style></head><body><div class="pg">
 <main style="padding-bottom:1.6rem">
 <p class="k">Uitnodiging &middot; Invitation</p>
 <p class="nm">Omar Moussa<span class="ap">&rsquo;</span>s <span class="pd">PhD</span></p>
@@ -65,4 +81,4 @@ p.s{font:.8rem/1.45 SS,-apple-system,Helvetica,Arial,sans-serif;margin:.5rem 0 1
 
 </main>
 <div class="stage"><a class="cover" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><img src="a/omslag.jpg" alt="Omslag van het proefschrift / Thesis cover" width="900" height="1270" loading="lazy"></a><div class="tbl"></div></div>
-</body></html>
+</div></body></html>
