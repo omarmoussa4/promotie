@@ -31,7 +31,7 @@ p.s{font:.8rem/1.45 SS,-apple-system,Helvetica,Arial,sans-serif;margin:.5rem 0 1
 .cal .ic{display:block;width:28px;height:28px}.cal .ic svg{display:block;width:100%;height:100%}
 .cal .lb{white-space:nowrap;font:600 .68rem/1.15 SS,-apple-system,Helvetica,Arial,sans-serif}
 .sec{margin-top:2rem}
-.cover{display:block;margin:0 auto}.cover img{display:block;width:100%;height:auto}
+.cover{display:block;margin:0 auto}.cover picture{display:block}.cover img{display:block;width:100%;height:auto}
 @media (max-width:400px){.cal{gap:.4rem}.cal .lb{font-size:.62rem}}
 @media (max-width:339px){.cal{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
@@ -53,7 +53,8 @@ html{background:#2f2721}
 .pg{background:linear-gradient(90deg,transparent 50%,var(--stone) 50%)}
 .pg>main:nth-of-type(2){background:var(--stone) url(a/steen.jpg) 50% 100%/100% auto}
 .stage{grid-column:1;grid-row:1/4;position:sticky;top:0;height:100vh;align-self:start;display:flex;flex-direction:row;align-items:center;justify-content:center;background:#2f2721 radial-gradient(ellipse 70% 60% at 50% 45%,#4a3e33 0%,#2f2721 70%)}
-.stage .cover{margin:0;width:min(25rem,62%);max-width:none}
+.stage .cover{margin:0;width:min(88%,calc(88vh*0.7089));max-width:none}
+.pg{grid-template-columns:minmax(0,1fr) min(50%,62.5rem);background:none}
 .stage .cover img{box-shadow:0 30px 60px rgba(0,0,0,.6),0 6px 16px rgba(0,0,0,.45)}
 .stage .tbl{display:none}
 .motto{width:10.5rem}
@@ -80,5 +81,5 @@ html{background:#2f2721}
 <a class="b pdf" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h5"/></svg><span>Proefschrift &middot; Thesis (pdf)</span></a>
 
 </main>
-<div class="stage"><a class="cover" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><img src="a/omslag.jpg" alt="Omslag van het proefschrift / Thesis cover" width="900" height="1270" loading="lazy"></a><div class="tbl"></div></div>
+<div class="stage"><a class="cover" href="https://research.vu.nl/ws/portalfiles/portal/522716862/moussa-proefschrift-vu-2026-embargoversie-naz%20-%206ae65980ba15d.pdf#page=2" target="_blank" rel="noopener" aria-label="Proefschrift lezen (pdf) / Read the thesis (pdf)"><picture><source media="(min-width:820px)" srcset="a/omslag-1600.jpg" width="1600" height="2257"><img src="a/omslag.jpg" alt="Omslag van het proefschrift / Thesis cover" width="900" height="1270" loading="lazy"></picture></a><div class="tbl"></div></div>
 </div></body></html>
